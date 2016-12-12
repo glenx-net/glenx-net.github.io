@@ -73,6 +73,7 @@ a:active {
 	width: 90%;
 	margin: auto;
   display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
 }
 
 
@@ -114,7 +115,6 @@ a:active {
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
-  -webkit-flex-wrap: wrap;
   display: inline-block;
 }
 
