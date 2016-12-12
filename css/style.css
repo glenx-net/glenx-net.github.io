@@ -81,7 +81,8 @@ a:active {
   font-size: 1.625rem; /* 26px/16px */
   letter-spacing: 0.05em;
   padding-bottom : 20px;
-  border-bottom : 1px solid white;
+  display: block;
+
   
 }
 
