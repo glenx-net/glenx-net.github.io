@@ -72,6 +72,7 @@ a:active {
 .container {
 	width: 90%;
 	margin: auto;
+  display: flex;
 }
 
 
@@ -113,8 +114,7 @@ a:active {
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
-  padding: 0 9px 3px;
-  margin-top: 20px;
+  flex-grow: 1;
   display: inline-block;
 }
 
@@ -142,17 +142,18 @@ a:active {
 .site {
   color: white;
   text-align: left;
-  padding: 18% 24%;
+  padding: 8% 4%;
   border-top: 10px solid #693;
-  margin: 105px 0 60px;
+  margin: 15px 0 20px;
   background: #231;
   box-shadow: 3px 5px 8px -2px #462 inset;
   border-radius: 50px 15px;
 }
 
 img {
-   filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
-	width : 380px;
+  filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
+	width: 380px;
+  height: 280px;
 }
 
 .ball {
