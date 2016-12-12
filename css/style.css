@@ -20,7 +20,7 @@ h1 {
   text-transform: uppercase;
   font-weight: normal;
   line-height: 1.13; 
-  text-shadow: 13px 13px 6px #231; 
+  text-shadow: 8px 8px 6px #231; 
 }
 
 h2 {
@@ -115,7 +115,8 @@ a:active {
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
-  display: inline-block;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
 }
 
 .main-footer {
