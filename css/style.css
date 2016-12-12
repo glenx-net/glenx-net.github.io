@@ -114,7 +114,7 @@ a:active {
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
-  -webkit-flex-grow: 1;
+  -webkit-flex-wrap: wrap;
   display: inline-block;
 }
 
