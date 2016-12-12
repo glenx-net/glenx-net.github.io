@@ -139,21 +139,20 @@ a:active {
   max-width: 960px;
 }
 
-.wildlife {
+.site {
   color: white;
   text-align: left;
   padding: 18% 24%;
-  border-top: 10px solid #6b1;
+  border-top: 10px solid #693;
   margin: 105px 0 60px;
-  background: #462 url('../img/bear.jpg') no-repeat center;
-  background-size: cover;
+  background: #231;
   box-shadow: 3px 5px 8px -2px #462 inset;
   border-radius: 50px 15px;
 }
 
 .img {
     filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
-	width : 80%;
+	width : 380px;
 }
 
 .ball {
