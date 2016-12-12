@@ -150,8 +150,8 @@ a:active {
   border-radius: 50px 15px;
 }
 
-.img {
-    filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
+img {
+   filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
 	width : 380px;
 }
 
