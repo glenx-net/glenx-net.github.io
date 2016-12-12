@@ -92,7 +92,8 @@ a:active {
 
 .primary-content,
 .main-footer {
-  
+  margin: 10px;
+  text-align: center;
 }
 
 .primary-content {
