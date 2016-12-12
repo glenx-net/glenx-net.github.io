@@ -72,7 +72,7 @@ a:active {
 .container {
 	width: 90%;
 	margin: auto;
-  display: flex;
+  display: -webkit-flex;
 }
 
 
@@ -98,10 +98,9 @@ a:active {
 
 .primary-content {
   padding-top: 25px;
-  padding-bottom: 95px;
+  padding-bottom: 15px;
   background: linear-gradient( #462, transparent 80%),
-             linear-gradient( 0deg, white, transparent 80%),
-    #462 url('../img/bg01.jpg') no-repeat center;
+             linear-gradient( 0deg, white, transparent 80%);
   background-size: cover;
 }
 
@@ -115,7 +114,7 @@ a:active {
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
-  flex-grow: 1;
+  -webkit-flex-grow: 1;
   display: inline-block;
 }
 
@@ -153,7 +152,7 @@ a:active {
 
 img {
   filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
-	width: 380px;
+	width: 280px;
   height: 280px;
 }
 
