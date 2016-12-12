@@ -8,7 +8,7 @@
 
 body {
   color: #132;
-  margin: 0;
+  margin: 3%;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: linear-gradient(  0deg, white, rgba(225,75,25,0), rgba(50,75,25,1) );
 
@@ -70,7 +70,6 @@ a:active {
 /*  Styles --------------------- */
 
 .container {
-	width: 90%;
 	margin: auto;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
