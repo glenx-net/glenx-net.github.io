@@ -155,6 +155,7 @@ img {
   filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
 	width: 280px;
   height: 280px;
+  display: block;
 }
 
 .ball {
