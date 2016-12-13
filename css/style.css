@@ -6,11 +6,18 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   color: #132;
-  margin: 3%;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: linear-gradient(  0deg, white, rgba(225,75,25,0), rgba(50,75,25,1) );
+}
+
+header {
+padding: 2% 4%;
 
 }
 
@@ -70,20 +77,31 @@ a:active {
 /*  Styles --------------------- */
 
 .container {
-	margin: auto;
+	margin: 0 ;
   display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  padding: 2% 4%;
+  /* equal to footer height */
+  }
+
+.container:after {
+  content: "";
+  display: block;
 }
 
+
+.main-footer, .container:after {
+  height: 32px; 
+}
 
 .title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
   letter-spacing: 0.05em;
-  padding-bottom : 20px;
+  padding: 2%;
+  margin: 2%;
   display: block;
-
-  
+ 
 }
 
 .intro {
@@ -91,8 +109,7 @@ a:active {
   line-height: 1.6;  
 }
 
-.primary-content,
-.main-footer {
+.primary-content {
   margin: 10px;
   text-align: center;
 }
@@ -107,23 +124,20 @@ a:active {
 
 .secondary-content {
   -webkit-columns: 250px 3;
-	padding-top: 80px;
-	padding-bottom: 70px;
-  border-bottom: 2px solid #ab9;
-}
+	}
 
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
+ 
 }
 
 .main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #6b1;
-}
+  color: white;
+  padding:  1% 0;
+  text-align: center;
+  background: #231;
+ }
 
 .t-border {
   border-top: 2px solid #ab9;
@@ -133,38 +147,37 @@ a:active {
 
 .primary-content, 
 .secondary-content {
-  width: 75%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: auto;
-  max-width: 960px;
 }
 
 .site {
   color: white;
   text-align: left;
-  padding: 8% 4%;
+  padding: 2% 3%;
   border-top: 10px solid #693;
-  margin: 15px 0 20px;
+  margin: 15px 1% 20px;
   background: #231;
   box-shadow: 3px 5px 8px -2px #462 inset;
-  border-radius: 50px 15px;
+  border-radius: 50px 5px;
 }
 
-img {
-  filter: saturate(200%) drop-shadow(5px 5px 10px #CEA);
-	width: 280px;
-  height: 280px;
+.img {
+	width: 120px;
+  height: 120px;
+  -webkit-filter: drop-shadow(1px 1px 6px #CEA);
+  align-items: center;
   display: block;
+  margin-top: 10%;
 }
 
 .ball {
-	width : 40%;
+ 
 }
 
 .arrow {
-  width: 60px;
-  margin-top: 300px;
+
 }
 
 /* Floated Columns ------------------ */
