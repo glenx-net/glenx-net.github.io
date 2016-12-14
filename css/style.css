@@ -12,20 +12,21 @@ html, body {
 
 body {
   color: #132;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: linear-gradient(  0deg, white, rgba(225,75,25,0), rgba(50,75,25,1) );
+  font: 1.5em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
 }
 
 header {
-padding: 2% 4%;
+padding: 1% 4%;
 
 }
 
-h1 {  
-  font-size: 4.625rem; /* 90px/16px  */
+h1 { 
+  font-family: 'Play', sans-serif; 
+  font-size: 6.5rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 700;
   line-height: 1.13; 
   text-shadow: 8px 8px 6px #231; 
 }
@@ -37,12 +38,6 @@ h2 {
   margin: 0 0 .5em; /* 0 0 26px */
 }
 
-h3 {
-  font-size: 1.25em; /* 20px/16px  */
-  color: #462;
-  line-height: .922;
-  margin-bottom: 1.7em; /* 34px */
-}
 
 ul,
 li {
@@ -76,11 +71,16 @@ a:active {
 
 /*  Styles --------------------- */
 
+.wrapper{
+  background: linear-gradient(  0deg, white, rgba(225,75,25,0), rgba(50,75,25,1) );
+}
+
+
 .container {
 	margin: 0 ;
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
-  padding: 2% 4%;
+  padding: 1% 4%;
   /* equal to footer height */
   }
 
@@ -109,21 +109,9 @@ a:active {
   line-height: 1.6;  
 }
 
-.primary-content {
-  margin: 10px;
-  text-align: center;
-}
-
-.primary-content {
-  padding-top: 25px;
-  padding-bottom: 15px;
-  background: linear-gradient( #462, transparent 80%),
-             linear-gradient( 0deg, white, transparent 80%);
-  background-size: cover;
-}
 
 .secondary-content {
-  -webkit-columns: 250px 3;
+  -webkit-columns: 280px 4;
 	}
 
 .callout {
@@ -145,7 +133,6 @@ a:active {
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
 .secondary-content {
   padding-left: 15px;
   padding-right: 15px;
@@ -160,12 +147,12 @@ a:active {
   margin: 15px 1% 20px;
   background: #231;
   box-shadow: 3px 5px 8px -2px #462 inset;
-  border-radius: 50px 5px;
+  border-radius: 50px 0px;
 }
 
 .img {
-	width: 120px;
-  height: 120px;
+	width: 150px;
+  height: 150px;
   -webkit-filter: drop-shadow(1px 1px 6px #CEA);
   align-items: center;
   display: block;
